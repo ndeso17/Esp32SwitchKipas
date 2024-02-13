@@ -1,0 +1,111 @@
+/* Home.css */
+
+.kipas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+
+.kipas-wrapper {
+  position: relative;
+}
+
+.kipas img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Define keyframes for rotation at different speeds */
+@keyframes rotateSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateMedium {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(720deg);
+  }
+}
+
+@keyframes rotateFast {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1080deg);
+  }
+}
+
+/* Apply different animations based on SwitchRpm values to the image only */
+.kipas.rpm-1 .kipas-wrapper img {
+  animation: rotateSlow 2s linear infinite;
+  -webkit-animation: rotateSlow 2s linear infinite;
+}
+
+.kipas.rpm-2 .kipas-wrapper img {
+  animation: rotateMedium 1s linear infinite;
+  -webkit-animation: rotateMedium 1s linear infinite;
+}
+
+.kipas.rpm-3 .kipas-wrapper img {
+  animation: rotateFast 0.5s linear infinite;
+  -webkit-animation: rotateFast 0.5s linear infinite;
+}
+
+.switchGeleng {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+.switchGeleng span {
+  margin-bottom: 10px;
+}
+
+.statusKipas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+.statusKipas span {
+  margin-bottom: 10px;
+}
+
+.switchRpm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+.switchRpm span {
+  margin-bottom: 10px;
+}
+
+.notification {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1;
+}

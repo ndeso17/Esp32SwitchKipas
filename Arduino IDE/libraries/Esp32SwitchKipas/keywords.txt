@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map For ESP32SwitchKipas
+#######################################
+
+#######################################
+# Library (KEYWORD3)
+#######################################
+
+ESP32SwitchKipas	KEYWORD3
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ESP32SwitchKipas	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+KipasESP32	KEYWORD2
+RemoteKipas	KEYWORD2
+naxgrinting	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################

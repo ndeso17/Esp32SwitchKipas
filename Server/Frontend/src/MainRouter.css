@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Sansita-Reguler";
+  src: url("./fonts/Sansita-Regular.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Sansita-Reguler";
+}
+
+a,
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+}
