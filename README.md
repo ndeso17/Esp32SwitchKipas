@@ -67,4 +67,4 @@ Sertakan username telegram kamu pada deskripsi pengiriman, saya akan mengirimkan
 To get an example of .env and sql database, instead is a cup of coffee for.
 Include your telegram username in the delivery description, I will send examples of .env and sql there.
 
-[Paypal](paypal.me/khilmyfirdausromadon)
+[Paypal](https://paypal.me/khilmyfirdausromadon)
