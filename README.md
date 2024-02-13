@@ -58,11 +58,13 @@ Please join me in developing this repository together.
 
 ## GMC
 #### ID
-Untuk mendapatkan contoh .env dan sql database, sebagai gantinya adalah secangkir coffe untuk. 
+Untuk mendapatkan contoh .env dan sql database, sebagai gantinya adalah secangkir coffe untuk.
+Sertakan username telegram kamu pada deskripsi pengiriman, saya akan mengirimkan contoh .env dan sql disana.
 
 [Saweria](https://saweria.co/naxgrinting)
 
 #### English
 To get an example of .env and sql database, instead is a cup of coffee for.
+Include your telegram username in the delivery description, I will send examples of .env and sql there.
 
 [Paypal](paypal.me/khilmyfirdausromadon)
